@@ -1,5 +1,8 @@
 module "vpc_test" {
-  source = "../terraform-AWS-VPC-module"
+  #source = "../terraform-AWS-VPC-module" for practice 
+
+  source = "git::https://github.com/SrikanthErugula/terraform-AWS-VPC-module.git" 
+  #real timelo
 #    vpc_cidr = "10.0.0.0/16"
 #    project_name = "demo-roboshop"
 #    environment = "dev"
