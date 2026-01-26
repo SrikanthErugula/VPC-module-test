@@ -26,7 +26,7 @@ module "vpc_test" {
     # database subnets
     database_subnet_cidrs = var.database_subnet_cidrs
 
-    is_peering_required = false # see notes
+    is_peering_required = true # see notes
 }
 
 
