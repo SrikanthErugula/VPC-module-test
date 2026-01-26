@@ -22,7 +22,10 @@ module "vpc_test" {
 
     # database subnets
     database_subnet_cidrs = var.database_subnet_cidrs
+
+    is_peering_required = false # see notes
 }
+
 
 # data "aws_availability_zones" "available" {
 #   state = "available"
