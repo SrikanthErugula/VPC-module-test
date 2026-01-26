@@ -9,6 +9,6 @@ output "vpc_sri_id" {
 # mian.tf lo define chesi ikkda o/p check chesa ila evi ayina chudachu
 
 
-output "public_subnet_ids" {
-  value = module.vpc.public_subnet_ids
-}
+# output "public_subnet_ids" {
+#   value = module.vpc.public_subnet_ids
+# }
