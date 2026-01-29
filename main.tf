@@ -34,5 +34,5 @@ module "vpc_test" {
 #   state = "available"
 # }
 
-# o/p checking kosam ila run chesa
+# o/p checking kosam ila run chesam see in out.tf file
 
