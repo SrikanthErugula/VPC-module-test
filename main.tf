@@ -1,7 +1,7 @@
 module "vpc_test" {
-  #source = "../terraform-AWS-VPC-module" for practice 
+  source = "../terraform-AWS-VPC-module" #for practice 
 
-  source = "git::https://github.com/SrikanthErugula/terraform-AWS-VPC-module.git?ref=main" 
+  #source = "git::https://github.com/SrikanthErugula/terraform-AWS-VPC-module.git?ref=main" 
   #real timelo
 #    vpc_cidr = "10.0.0.0/16"
 #    project_name = "demo-roboshop"
@@ -26,7 +26,7 @@ module "vpc_test" {
     # database subnets
     database_subnet_cidrs = var.database_subnet_cidrs
 
-    is_peering_required = true # see notes
+    is_peering_required = false # see notes
 }
 
 
