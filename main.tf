@@ -12,6 +12,7 @@ module "vpc_test" {
 # {above values commet endhuku ante vallaki vere value replce 
 #cheyalnate kastum so we need to give chance to them }
 
+
    # VPC
     vpc_cidr = var.vpc_test_cidr
     project_name = var.project_test_name
